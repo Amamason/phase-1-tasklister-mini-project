@@ -7,7 +7,7 @@ html {
 body {
   min-height: 100%;
   min-width: 100%;
-  background: linear-gradient(pink, violet);
+  background: linear-gradient(rgb(130, 181, 189), rgb(83, 119, 163));
 }
 
 button {
@@ -20,18 +20,18 @@ button {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border: 1px solid #333;
-  background: rgba(255, 255, 255, 0.3);
+  border: none;
+  background: none;
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
-  box-shadow: 2px 5px 5px #333;
+  box-shadow: none;
 }
 
 #list {
   margin: 10px;
-  border: 1px solid #333;
-  background: rgba(255, 255, 255, 0.75);
+  border: none;
+  background: rgba(253, 244, 77, 0.75);
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
-  box-shadow: 2px 5px 5px #333;
+  box-shadow: 2px 5px 5px rgb(105, 113, 136);
 }
